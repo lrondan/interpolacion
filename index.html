@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentacion</title>
+</head>
+<body>
+    <p>La interpolación y la extrapolación son técnicas utilizadas en matemáticas y estadísticas para estimar valores entre o más allá de puntos de datos conocidos. Aquí tienes una explicación básica de cada uno:<br>
+        <br><br>
+        <b>Interpolación:</b><br>
+        La interpolación se utiliza para estimar valores dentro del rango de puntos de datos conocidos. Se asume que los puntos de datos conocidos siguen una tendencia o patrón y se utiliza esta información para estimar valores adicionales.<br>
+        Existen varios métodos de interpolación, pero uno de los más comunes es el método de interpolación lineal. Este método utiliza una línea recta para conectar dos puntos de datos conocidos y estima el valor desconocido en función de la posición relativa del punto entre estos dos puntos.<br>
+        Por ejemplo, si tienes dos puntos de datos (x1,y1) y (x2,y2), y deseas estimar el valor de y para un valor de x desconocido entre x1 y x2, puedes usar la fórmula de interpolación lineal:<br>
+        <br><br>
+        <b>Extrapolación:</b><br>
+        La extrapolación se utiliza para estimar valores más allá del rango de puntos de datos conocidos. A diferencia de la interpolación, la extrapolación implica hacer suposiciones y proyectar la tendencia más allá de los datos conocidos, lo cual puede ser menos confiable y más propenso a errores.<br>
+        La extrapolación se basa en la suposición de que la tendencia o patrón observado en los datos conocidos se mantendrá más allá de ese rango. Sin embargo, es importante tener en cuenta que la extrapolación puede ser menos precisa y confiable que la interpolación, especialmente si la tendencia subyacente cambia o se desvía fuera del rango de los datos conocidos.<br>
+        Cuando se realiza la extrapolación, es fundamental tener en cuenta las limitaciones y los posibles errores asociados. Siempre es recomendable utilizar datos adicionales, conocimiento experto o realizar análisis más avanzados para respaldar las estimaciones extrapoladas.<br>
+        Uno de los métodos más simples para la extrapolación es la extrapolación lineal, que asume una relación lineal entre los datos conocidos y los valores desconocidos fuera del rango. En este caso, se puede utilizar una ecuación de la forma:<br><br>
+        y = mx + b<br>
+            y es el valor estimado a extrapolar.<br>
+            x es la variable independiente (por ejemplo, el tiempo o la posición) asociada al valor estimado.<br>
+            m es la pendiente de la línea que relaciona los datos conocidos.<br>
+            b es el término de intersección en y cuando x es igual a cero.<br>
+        <b>Extrapolación lineal</b><br>
+        Extrapolar de manera lineal quiere decir aproximar la función a una función lineal o afín, es decir, a una función polinómica de grado 1.<br>
+        La manera más fácil de llevar a cabo una extrapolación lineal es mediante la interpolación polinómica de Newton. En este caso se usa un polinomio de primer grado para intentar predecir el valor de la función en un punto.<br>
+        Dados dos puntos conocidos, P_1 (x1,y1) y P_2 (x2,y2), la fórmula para realizar la extrapolación lineal es:<br>
+        y=(y_2-y_1)/(x_2-x_1 ) (x-x_1 )+y_1<br>
+        Donde x e y son las coordenadas del punto extrapolado.<br>
+        </p>
+</body>
+</html>
